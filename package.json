@@ -1,14 +1,18 @@
 {
   "name": "eslint-config-recommended-plus-types",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "The spiritual successor to eslint:recommended for typescript.",
-  "keywords": ["eslint", "eslintconfig", "typescript"],
-  "main": "index.js",
-  "author": "Brian Kim",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "typescript"
+  ],
   "license": "MIT",
+  "author": "Brian Kim",
+  "main": "index.js",
   "peerDependencies": {
-    "eslint": ">=3",
     "@typescript-eslint/eslint-plugin": ">=2.3",
-    "@typescript-eslint/parser": ">=2.3"
+    "@typescript-eslint/parser": ">=2.3",
+    "eslint": ">=3"
   }
 }
