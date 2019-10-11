@@ -7,6 +7,10 @@
     "eslintconfig",
     "typescript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brainkim/eslint-config-recommended-plus-types.git"
+  },
   "license": "MIT",
   "author": "Brian Kim",
   "main": "index.js",
