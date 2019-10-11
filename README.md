@@ -46,11 +46,10 @@ by enabling rules which `eslint:recommended` does not (`camelcase`,
 At the same time, using `eslint:recommended` with `@typscript-eslint/parser`
 causes the `no-unused-vars` rule to emit false positives. The
 `recommended-plus-types` config attempts to hew closer to the spirit and intent
-of the `eslint:recommended` config, by only enabling `@typescript-eslint` rules
+of the `eslint:recommended` config by only enabling `@typescript-eslint` rules
 which either fix rules found in `eslint:recommended` or otherwise are likely to
-be universally agreed upon and seldom disabled. The tests used to determine
-whether a rule is “likely to be universally agreed upon and seldom disabled”
-are as follows:
+be universally agreed upon and seldom disabled. The following tests were used
+to determine whether a rule merited inclusion:
 
 1. The rule catches or prevents possible errors.
 2. The rule only disallows code which is written unintentionally.
